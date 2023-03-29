@@ -1,0 +1,13 @@
+GET http://localhost:3000/jobs/
+
+###
+GET http://localhost:3000/jobs/2/
+Content-Type: application/json
+
+{
+    "id":2,
+    "companyName":"wipro",
+    "companyWebsite":"www.wipro.com",
+    "jobDescription":"we are looking for job",
+    "openings":"15"
+}
